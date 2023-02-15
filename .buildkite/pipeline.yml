@@ -1,0 +1,5 @@
+steps:
+  - label: ":console:"
+    command: echo "this is the start"
+    agents:
+      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
